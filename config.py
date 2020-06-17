@@ -7,7 +7,7 @@ class Config:
     '''
     QUOTES_API_BASE_URL ='http://quotes.stormconsultancy.co.uk/random.json'
 
-    SQLALCHEMY_DATABASE_URI = '/app.db'
+    SQLALCHEMY_DATABASE_URI = 'sqlite:////home/crystal/atompython/blogtrial/app.db'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SECRET_KEY = 'secret'
 
