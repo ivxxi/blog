@@ -1,5 +1,5 @@
-/virtual
-app.db
+virtual/
+*.pyc
+start.sh
 config.py
-/logs
-/start.sh
+logs/
