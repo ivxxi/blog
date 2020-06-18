@@ -1,6 +1,6 @@
 
 # Blogs
-#### An application that a user may read my blogs, 26/11/18
+#### An application that a user may read my blogs
 #### By **crystal alice**
 ## Description
 This is an application where a user may read, and comment on my blogs. A user would first have to make an account before they may access the website. From the home page there are listed blogs and a user may read through them as they please and if they'd like to- can also make comments.
