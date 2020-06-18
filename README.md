@@ -20,8 +20,6 @@ This is an application where a user may read, and comment on my blogs. A user wo
 * Install all the dependencies from the requirements.txt file by running `pip3 install -r requirements.txt`
 * Create a `start.sh` file in the root of the folder and add the following code:
 
-        export SECRET_KEY=<your-secret-key>
-
 * To run the application, in your terminal:
 
         $ chmod a+x start.sh
