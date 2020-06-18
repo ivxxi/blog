@@ -5,7 +5,6 @@ class Config:
     '''
     General configuration parent class
     '''
-    QUOTES_API_BASE_URL ='http://quotes.stormconsultancy.co.uk/random.json'
 
     SQLALCHEMY_DATABASE_URI = 'sqlite:////home/crystal/atompython/blogtrial/app.db'
     SQLALCHEMY_TRACK_MODIFICATIONS = False

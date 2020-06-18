@@ -6,9 +6,6 @@ from .. import db
 from .forms import EditProfileForm, EmptyForm, PostForm
 from ..models import User, Post
 from . import main
-import requests
-import json
-
 
 @main.before_app_request
 def before_request():
@@ -16,10 +13,6 @@ def before_request():
         current_user.last_seen = datetime.utcnow()
         db.session.commit()
 
-@main.route("/")
-def quotes():
-    random = requests.get('http://quotes.stormconsultancy.co.uk/random.json').json()
-    return render_template('index.html', random=random)
 
 @main.route('/', methods=['GET', 'POST'])
 @main.route('/index', methods=['GET', 'POST'])
